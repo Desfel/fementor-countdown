@@ -85,7 +85,6 @@ export default {
   watch: {
     seconds: {
       handler(value) {
-
         if (value > -1) {
           setTimeout(() => {
             this.seconds = this.seconds - 1
@@ -126,6 +125,6 @@ export default {
   width: 100%;
   min-height: 100vh;
   height: 100%;
-  background: url('../assets/img/pattern-hills.svg') bottom left/100% 266px no-repeat, url('../assets/img/bg-stars.svg'), linear-gradient(180deg, #1D1E28 0.12%, #261C2D 94.84%, #261A2D 100%);
+  background: url('../assets/img/pattern-hills.svg') bottom -59px left/100% 266px no-repeat, url('../assets/img/bg-stars.svg'), linear-gradient(180deg, #1D1E28 0.12%, #261C2D 94.84%, #261A2D 100%);
 }
 </style>
